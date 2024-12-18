@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 class="title">Smart Email Assistant</h1>
+      </div>
+
+      <button id="replyButton" class="button">
+        Generate Professional Reply
+      </button>
+
+      <div id="loading" class="loading">
+        <div class="spinner"></div>
+        <span>Generating reply...</span>
+      </div>
+
+      <div id="dialog" class="dialog">
+        <div class="dialog-content">
+          <p id="dialogMessage"></p>
+        </div>
+        <button id="closeDialog" class="close-button">Close</button>
+      </div>
+    </div>
+    <script src="popup.js" type="module"></script>
+  </body>
+</html>

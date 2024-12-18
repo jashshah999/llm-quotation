@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Smart Email Assistant",
+    "version": "1.0",
+    "description": "Professional AI-powered email reply generator",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup/popup.html"
+    }
+}
